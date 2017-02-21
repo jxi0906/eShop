@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!-- Student Name: Junhui Xie
+	 Student ID: 991338100 -->
+
+<xieju>
+	<!-- title node -->
+	<siteTitle>eShop Web-based Application</siteTitle>
+
+	<!-- product node -->
+	<product>
+		<!--	http://www.bestbuy.ca/en-ca/product/bose-bose-quietcomfort-25-over-ear-noise-cancelling-headphones-apple-white-qc-25-headphones-wht/10322911.aspx?path=cbde2a53eb5a226ad0c1df30520d0220en02 -->
+		<name image="Bose_headphone.jpg">Bose</name>
+		<type>Available online only</type>
+		<description>Whether on the plane, crowded street or busy office, these Bose QuietComfort 25 headphones block out any unwanted noise so you can fully immerse in your favourite tunes.</description>
+		<specification>
+			<style>Over-Ear</style>
+			<cordLength>1.42 m</cordLength>
+			<earCushion>Synthetic leather</earCushion>
+			<color>White</color>
+		</specification>
+		<currentPrice>$329.99</currentPrice>
+	</product>
+	<product>
+		<!-- http://www.bestbuy.ca/en-ca/product/beats-by-dr-dre-beats-by-dr-dre-beats-studio-over-ear-noise-cancelling-headphones-900-00149-01-blue-900-00149-01/10272693.aspx?path=5a3ee28f0ef2ceed9eaea282759ea706en02 -->
+		<name image="Beats_headphone.jpg">Beats</name>
+		<type>Available online only</type>
+		<description>Equipped with professional grade sound, these headphones are tuned for all genres of music and have an active noise-cancellation feature to give you hours of enjoyment.</description>
+		<specification>
+			<style>Over-Ear</style>
+			<cordLength>0.915 m</cordLength>
+			<earCushion>Leatherette</earCushion>
+			<color>Blue</color>
+		</specification>
+		<currentPrice>$249.95</currentPrice>
+	</product>
+	<product>
+		<!-- http://www.bestbuy.ca/en-ca/product/monster-monster-roc-black-platinum-over-ear-sound-isolating-headphones-black-gold-mh-roc-oe-bpl-cu-ww/10415960.aspx?path=0a8aa15b3bfbeb71013abdd6738b17f9en02 -->
+		<name image="Monster_headphone.jpg">Monster</name>
+		<type>Available online only</type>
+		<description>These ROC Black Platinum over-ear headphones from Monster are from the soccer superstar's LIVE LIFE LOUD line, combining premium sound with bold and iconic look.</description>
+		<specification>
+			<style>Over-Ear</style>
+			<cordLength>1.4 m</cordLength>
+			<earCushion>Leatherette</earCushion>
+			<color>Black; Gold</color>
+		</specification>
+		<currentPrice>$329.99</currentPrice>
+	</product>
+</xieju>
