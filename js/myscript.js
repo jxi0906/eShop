@@ -143,7 +143,7 @@ function getXML(xml) {
 		$("#b"+n).append("<p class='productName'>" + $(this).find("name").text() + "</p>");
 		// display the picture and link to another page
 		$("#b"+n).append("<a href='#product'>" +
-						 "<p>" + "<img src='_images/" + 
+						 "<p>" + "<img src='images/" + 
 						 $(this).find("name").attr("image") + 
 					     "' width='150'>" + "</p>" + "</a>");
 		$(".product"+n).html($(this).find("name").text());
@@ -165,10 +165,10 @@ $(document).on("click", "section >div", function() {
 
 function parseXML(xml, rowID) {
 	// retrieve the information based on the rowID
-	$("div#img").html("<img src='_images/" + 
+	$("div#img").html("<img src='images/" + 
 							$(xml).find("product:nth(" + rowID + ")").find("name").attr("image") +
 						"' width='270'>");
-	$("div#image").html("<img src='_images/" + 
+	$("div#image").html("<img src='images/" + 
 							$(xml).find("product:nth(" + rowID + ")").find("name").attr("image") +
 						"' width='120'>");					
 	$("div#name").html("<b>Product Name:</b> " + 
